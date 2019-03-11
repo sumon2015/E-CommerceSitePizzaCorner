@@ -1,0 +1,37 @@
+/* Less Framework 4 with 16/24 type presets
+
+/* Default Layout: 992px */
+    .wrap,.header,.head-slide,.slider,.slider .bxslider .slide img,.main_menu,.food-bottom,.footer{width:1040px;}
+    .top{width:98%;}
+    .search{width:960px;}
+    .food_01{width:495px;}
+    .location-map{width: 223px;}
+    .footer-01{width:340px;}
+
+/* Tablet Layout: 768px */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .wrap,.header,.head-slide,.slider,.slider .bxslider .slide img,.main_menu,.food-bottom,.footer{width:700px;}
+    
+}
+
+
+
+/* Wide Mobile Layout: 480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .wrap,.header,.head-slide,.slider,.slider .bxslider .slide img,.main_menu,.food-bottom,.footer{width:450px;}
+    
+    
+}
+
+
+
+/* Mobile Layout: 320px.*/
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .wrap,.header,.head-slide,.slider,.slider .bxslider .slide img,.main_menu,.food-bottom,.footer{width:300px;}
+    
+}
+
+          
